@@ -57,9 +57,9 @@ let loveDaily = love[Math.floor(Math.random() * love.length)];
 //const dailyAff = [abunDaily, succDaily, happDaily, loveDaily]
 
 const dailyAff = () => {
-  console.log(`Your Abundance positive affirmation of the day is: ${abunDaily}, 
-Your Success positive affirmation of the day is: ${succDaily},
-Your Happiness positive affirmation of the day is: ${happDaily}, 
+  console.log(`Your Abundance positive affirmation of the day is: ${abunDaily} 
+Your Success positive affirmation of the day is: ${succDaily}
+Your Happiness positive affirmation of the day is: ${happDaily}
 Your Love positive affirmation of the day is: ${loveDaily}`);
 }
 
