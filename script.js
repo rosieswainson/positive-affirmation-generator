@@ -56,8 +56,13 @@ let loveDaily = love[Math.floor(Math.random() * love.length)];
 
 //const dailyAff = [abunDaily, succDaily, happDaily, loveDaily]
 
+let d = new Date();
+
+//console.log(d.toDateString());
+
 const dailyAff = () => {
-  console.log(`Your Abundance positive affirmation of the day is: ${abunDaily} 
+  console.log(`Today is ${d.toDateString()}.
+Your Abundance positive affirmation of the day is: ${abunDaily} 
 Your Success positive affirmation of the day is: ${succDaily}
 Your Happiness positive affirmation of the day is: ${happDaily}
 Your Love positive affirmation of the day is: ${loveDaily}`);
@@ -65,6 +70,3 @@ Your Love positive affirmation of the day is: ${loveDaily}`);
 
 dailyAff();
 
-let d = new Date();
-
-//console.log(d.toDateString());
