@@ -1,0 +1,84 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  body {
+    max-width: 1920px;
+    background-color: #efefef;
+
+    /* margin: 2rem 2rem; */
+
+  }
+
+  header {
+    width: 100%;
+    padding: 0 2rem;
+    margin: 2rem auto;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .about-container {
+    width: 70rem;
+    padding: 2rem 0; 
+    /* margin: 0 auto; */
+    text-align: center;
+
+  }
+
+  /* .affirmation-container {
+    width: 50rem; 
+    text-align: center;
+    border: 3px solid black;
+
+    margin: 0 auto;
+  } */
+
+  .affirmation-panel {
+    width: 80rem; 
+    height: 100vh;
+    background-image: url(./Images/kaylee-brayne-positive-affirmations.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid black;
+
+  }
+
+  .love-aff, 
+  .succ-aff,
+  .happ-aff,
+  .abun-aff {
+    width: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aliceblue;
+    border: 1px solid black;
+  }
+
+  .love-aff h3, 
+  .succ-aff h3,
+  .happ-aff h3,
+  .abun-aff h3 {
+    margin: 1rem;
+  } 
+
+  .love-aff p, 
+  .succ-aff p,
+  .happ-aff p,
+  .abun-aff p {
+    margin: 1rem;
+  } 
